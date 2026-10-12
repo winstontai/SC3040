@@ -1,0 +1,272 @@
+[
+    {
+        "longitude": 103.97508843873115,
+        "latitude": 1.3648230754844408,
+        "properties": {
+            "OBJECTID": 478743,
+            "LOCALITY": "Toh Dr, Hts ",
+            "CASE_SIZE": 4,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Pail, Flower plate, Container",
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "1BE2405DD3A90660",
+            "FMEL_UPD_D": "20250317160506",
+            "SHAPE.AREA": 69766.810079915,
+            "SHAPE.LEN": 1239.86020761898
+        }
+    },
+    {
+        "longitude": 103.77943517331879,
+        "latitude": 1.4324276644749223,
+        "properties": {
+            "OBJECTID": 478744,
+            "LOCALITY": "Woodlands Ave 1 (Blk 341) / Woodlands Ave 3 (Blk 348) / Woodlands St 32 (Blk 344)",
+            "CASE_SIZE": 5,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Flower pot, Cup, Flower pot rim, Pail, Vase",
+            "PUBLIC_PLACES": "Scupper drain, Lightning pit",
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "5FBA92CB927DABB5",
+            "FMEL_UPD_D": "20250321155506",
+            "SHAPE.AREA": 64537.14475279,
+            "SHAPE.LEN": 1071.8955184135
+        }
+    },
+    {
+        "longitude": 103.73694671072343,
+        "latitude": 1.339490706714106,
+        "properties": {
+            "OBJECTID": 478745,
+            "LOCALITY": "Jurong East St 13 (Westmere)",
+            "CASE_SIZE": 5,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Ornamental container, Plastic tray, Cup, Vase",
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "DFAF26E9B2A309B6",
+            "FMEL_UPD_D": "20250321155506",
+            "SHAPE.AREA": 106371.83412027,
+            "SHAPE.LEN": 1508.34897618533
+        }
+    },
+    {
+        "longitude": 103.94630431373851,
+        "latitude": 1.3247434612455742,
+        "properties": {
+            "OBJECTID": 478746,
+            "LOCALITY": "Bedok Ter / Jln Limau Bali, Manis, Nipis / Kew Dr / Limau Gdn, Rise, Ter ",
+            "CASE_SIZE": 10,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Container, Closed perimeter drain, Flower pot, Dustpan, Ornamental container, Vase, Grass verge ",
+            "PUBLIC_PLACES": "Pail, Domestic container, Umbrella base",
+            "CONSTRUCTION_SITES": "Tree hole",
+            "INC_CRC": "64EFC74E15879B76",
+            "FMEL_UPD_D": "20250321155506",
+            "SHAPE.AREA": 291249.501362525,
+            "SHAPE.LEN": 2633.9870219884
+        }
+    },
+    {
+        "longitude": 103.88066781595607,
+        "latitude": 1.3531593248654235,
+        "properties": {
+            "OBJECTID": 478747,
+            "LOCALITY": "Hougang St 11 (The Minton) / Lor Ah Soo (Blk 143) / Paya Lebar Cres",
+            "CASE_SIZE": 4,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Bottle, Flower vase, Potted plant, Pail, Flower pot/tray, Bowl, Unsued tyre, Overturned trough rim, Basin, Storage box with soil, Ceramic pot",
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "697B73C76659C3CB",
+            "FMEL_UPD_D": "20250321155506",
+            "SHAPE.AREA": 230471.62875086,
+            "SHAPE.LEN": 2372.83354480415
+        }
+    },
+    {
+        "longitude": 103.8886126702439,
+        "latitude": 1.3510156141406233,
+        "properties": {
+            "OBJECTID": 478748,
+            "LOCALITY": "Hougang Ave 1 (Blk 174A, 174C, 174D) / Lor Ah Soo (Blk 137)",
+            "CASE_SIZE": 13,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Styrofoam Box with plants, Mopping Pail, Bowl",
+            "PUBLIC_PLACES": "Downpipe Outlet",
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "DE4BA5E1FE80FF96",
+            "FMEL_UPD_D": "20250321155506",
+            "SHAPE.AREA": 98020.71821862,
+            "SHAPE.LEN": 1361.39423423787
+        }
+    },
+    {
+        "longitude": 103.83033589343741,
+        "latitude": 1.3724503420983354,
+        "properties": {
+            "OBJECTID": 478749,
+            "LOCALITY": "Ang Mo Kio Ave 2 / Jln Chengam, Gelenggang, Kuras, Leban, Tarum / Sembawang Hills Dr / St. Nicholas View / Thomson Hill, Hts, Walk",
+            "CASE_SIZE": 72,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Ornamental containers, Domestic containers, Flower pot plate/tray, Discarded receptacles, Bins, Plants",
+            "PUBLIC_PLACES": "Discarded receptacles",
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "F137C38A06082305",
+            "FMEL_UPD_D": "20250321155506",
+            "SHAPE.AREA": 298484.84452457,
+            "SHAPE.LEN": 3071.55312836882
+        }
+    },
+    {
+        "longitude": 103.75932333361759,
+        "latitude": 1.3028351431307985,
+        "properties": {
+            "OBJECTID": 478750,
+            "LOCALITY": "Pandan Cres ",
+            "CASE_SIZE": 2,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": null,
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "2EC1906E393C248A",
+            "FMEL_UPD_D": "20250321155506",
+            "SHAPE.AREA": 165613.545687045,
+            "SHAPE.LEN": 1802.71002114687
+        }
+    },
+    {
+        "longitude": 103.84008594819362,
+        "latitude": 1.383131801908287,
+        "properties": {
+            "OBJECTID": 478751,
+            "LOCALITY": "Ang Mo Kio Ave 4 (Blk 624) / Ang Mo Kio Ave 6 (Blk 633, 634, 635, 636, 637, 638, 639, 646) / Ang Mo Kio Ave 9 (Blk 621, 623, 625, 627, 651A) / Ang Mo Kio St 61",
+            "CASE_SIZE": 39,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Domestic containers, Flower pot, Discarded receptacles, Canvas sheet/plastic sheet, Ornamental containers, Flower plate/tray, Toilet bowl/cistern",
+            "PUBLIC_PLACES": "Discarded receptacles, Canvas/plastic sheet",
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "5C89630D5E055663",
+            "FMEL_UPD_D": "20250320155357",
+            "SHAPE.AREA": 239447.74887277,
+            "SHAPE.LEN": 2490.55304872052
+        }
+    },
+    {
+        "longitude": 103.94978105113132,
+        "latitude": 1.366517409855354,
+        "properties": {
+            "OBJECTID": 478752,
+            "LOCALITY": "Pasir Ris St 51 (Blk 552, 553, 556)",
+            "CASE_SIZE": 4,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": null,
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "E1369A9841E9AA27",
+            "FMEL_UPD_D": "20250320155357",
+            "SHAPE.AREA": 149071.358044625,
+            "SHAPE.LEN": 1548.14929789086
+        }
+    },
+    {
+        "longitude": 103.84730713355002,
+        "latitude": 1.3485101286139847,
+        "properties": {
+            "OBJECTID": 479041,
+            "LOCALITY": "Bishan St 12 (Blk 101, 106, 107)",
+            "CASE_SIZE": 4,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": null,
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "CAC3045B7519ACAE",
+            "FMEL_UPD_D": "20250320155357",
+            "SHAPE.AREA": 170164.145593835,
+            "SHAPE.LEN": 1812.86884764998
+        }
+    },
+    {
+        "longitude": 103.82714869679756,
+        "latitude": 1.385352572788389,
+        "properties": {
+            "OBJECTID": 479042,
+            "LOCALITY": "Tagore Ln ",
+            "CASE_SIZE": 3,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": null,
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "E1D43DD631B65EE2",
+            "FMEL_UPD_D": "20250320155357",
+            "SHAPE.AREA": 92651.124849625,
+            "SHAPE.LEN": 1229.0023979374
+        }
+    },
+    {
+        "longitude": 103.895920283625,
+        "latitude": 1.418207625077582,
+        "properties": {
+            "OBJECTID": 479043,
+            "LOCALITY": "Seletar North Lk",
+            "CASE_SIZE": 2,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": null,
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "A607D86514662093",
+            "FMEL_UPD_D": "20250320155357",
+            "SHAPE.AREA": 80240.03331665,
+            "SHAPE.LEN": 1212.08108706006
+        }
+    },
+    {
+        "longitude": 103.83574277356182,
+        "latitude": 1.3789763228590077,
+        "properties": {
+            "OBJECTID": 479044,
+            "LOCALITY": "Ang Mo Kio Ave 4 (Blk 612, 615)",
+            "CASE_SIZE": 2,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": null,
+            "PUBLIC_PLACES": null,
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "35481B4BBA702C09",
+            "FMEL_UPD_D": "20250319154706",
+            "SHAPE.AREA": 134169.219879025,
+            "SHAPE.LEN": 1476.08477171966
+        }
+    },
+    {
+        "longitude": 103.75125322187807,
+        "latitude": 1.3465489971633005,
+        "properties": {
+            "OBJECTID": 479045,
+            "LOCALITY": "Bt Batok Ctrl (Blk 225, 227, 639) / Bt Batok East Ave 3 (Blk 221, 222, 223, 229) / Bt Batok East Ave 5 (Blk 233, 239) / Bt Batok St 21 (Blk 214, 215, 216, 217, 219, 224)",
+            "CASE_SIZE": 40,
+            "NAME": "Dengue_Cluster",
+            "HYPERLINK": "https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters",
+            "HOMES": "Flower pot plate/tray, Containers, Flower pot, Vase, Tray, Ornamental containers, Earthen jar, Water scoop, Pail, Dish tray, Watering can, Gully trap, Slipper, Platter box, Domestic container, Cooking pots, Bowl, Trough",
+            "PUBLIC_PLACES": "Closed perimeter drain, Scupper drain, Inspection chamber, Discarded receptacles, Incense bin, Floor puddle",
+            "CONSTRUCTION_SITES": null,
+            "INC_CRC": "0DE796A53077476A",
+            "FMEL_UPD_D": "20250318154757",
+            "SHAPE.AREA": 272932.68282826,
+            "SHAPE.LEN": 2517.95337874003
+        }
+    }
+]

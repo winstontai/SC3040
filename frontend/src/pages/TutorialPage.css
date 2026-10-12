@@ -1,0 +1,175 @@
+.tutorial-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.tutorial-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.tutorial-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+.tutorial-header p {
+  font-size: 1.25rem;
+  color: #6b7280;
+}
+
+.tutorial-steps {
+  display: flex;
+  flex-direction: column; /* Stack the cards vertically */
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.step-card {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  overflow: visible;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+  height: auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+.step-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #6366f1;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 12px;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.step-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.step-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.step-card p {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.step-gif-expanded {
+  margin-top: 1.5rem;
+  width: 100%; 
+  max-width: 1000px; 
+  max-height: 70vh; 
+  object-fit: contain;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+/* Tutorial Actions */
+.tutorial-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.primary-button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}
+
+.secondary-button {
+  background: #f3f4f6;
+  color: #1f2937;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondary-button:hover {
+  background: #e5e7eb;
+  transform: translateY(-2px);
+}
+
+/* Section Separator*/
+.section-separator {
+  margin: 4rem 0 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.section-separator hr {
+  border: none;
+  height: 6px;
+  background: linear-gradient(to right, #6366f1, #4f46e5);
+  margin-bottom: 1.2rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.section-separator h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #374151;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.step-card.expanded {
+  height: auto; /* Dynamic height of expanded card */
+}
+
+.tutorial-steps {
+  display: flex;
+  flex-direction: column; /* Stack the cards */
+  gap: 2rem;
+  margin: 3rem 0;
+  max-width: 100%;
+}
