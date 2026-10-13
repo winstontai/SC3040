@@ -13,10 +13,11 @@
   "type": "module",
   "description": "",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.133.0",
     "backend": "file:",
     "express": "^4.21.2",
-    "mongodb": "^6.13.0"
+    "mongodb": "^6.13.0",
+    "openai": "^7.32.0",
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

@@ -1,9 +1,9 @@
 import express from 'express';
 import { fileURLToPath } from 'url';
 import { MongoClient, ServerApiVersion } from 'mongodb';
-import chatbotRouter from './chatbot/router.js';
+import chatbotRouter, { warmUpChatbot } from './chatbot/router.js';
 
-// Load secrets such as ANTHROPIC_API_KEY from backend/.env if it exists.
+// Load secrets such as OPENAI_API_KEY from backend/.env if it exists.
 try {
     process.loadEnvFile(fileURLToPath(new URL('../.env', import.meta.url)));
 } catch {
@@ -48,4 +48,5 @@ app.post('/hello', function(req, res){
 
 app.listen(8000, function() {
     console.log("Server is listening on port 8000");
+    warmUpChatbot();
 });

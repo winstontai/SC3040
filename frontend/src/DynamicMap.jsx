@@ -296,6 +296,69 @@ function DynamicMap() {
     setRecommendedHdbs(uniqueHdbs);
   }, [weights]);
 
+  /**
+   * Fly to a block mentioned by the chatbot. If it is one of the filtered
+   * flats, open its side panel just like clicking its marker.
+   *
+   * @param flat - { address, latitude, longitude } from the chatbot
+   */
+  const locateFlat = (flat) => {
+    const hdb = filteredHdbs.find((h) => h.address === flat.address);
+    if (hdb) {
+      setActiveHdb(hdb);
+    } else if (mapRef.current) {
+      mapRef.current.flyTo({
+        center: [flat.longitude, flat.latitude],
+        zoom: Math.max(mapRef.current.getZoom(), 16),
+        speed: 0.8,
+      });
+    }
+  };
+
+  /**
+   * Summarises what the user currently sees on the map so the chatbot can
+   * answer questions like "how far is this flat from the MRT?".
+   */
+  const getChatContext = () => {
+    const km = (hdb, target) => `${hdb.getDistanceFromHDBinKM(target).toFixed(2)} km`;
+    const openFlat = cache.findLast((item) => item instanceof Hdb);
+    const openItem = cache[cache.length - 1];
+
+    return {
+      page: "Map",
+      flats_on_map: filteredHdbs.length,
+      ranking_weights: weights,
+      open_flat: openFlat && {
+        address: openFlat.address,
+        town: openFlat.town,
+        flat_type: openFlat.flat_type,
+        storey_range: openFlat.storey_range,
+        floor_area_sqm: openFlat.floor_area_sqm,
+        resale_price: openFlat.resale_price,
+        month_sold: openFlat.month,
+        remaining_lease_at_sale: openFlat.remaining_lease,
+        nearest_schools: openFlat.nearestSchools.map(
+          (school) => `${school.school_name} (${km(openFlat, school)})`
+        ),
+        nearest_mrt: openFlat.nearestMRT.map((mrt) => `${mrt.name} (${km(openFlat, mrt)})`),
+        nearest_dengue_clusters: openFlat.nearestDengue.map(
+          (dengue) => `${dengue.caseSize} cases (${km(openFlat, dengue)})`
+        ),
+      },
+      open_amenity:
+        openItem && !(openItem instanceof Hdb)
+          ? openItem.school_name ?? openItem.name ??
+            (openItem.caseSize !== undefined ? `Dengue cluster, ${openItem.caseSize} cases` : "Traffic camera")
+          : undefined,
+      top_recommended_flats: recommendedHdbs.slice(0, 5).map((hdb) => ({
+        address: hdb.address,
+        flat_type: hdb.flat_type,
+        resale_price: hdb.resale_price,
+        score: Number(hdb.getTotalScore(weights).toFixed(2)),
+      })),
+    };
+  };
+
   return (
     <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
       {/* Side Panel */}
@@ -409,8 +472,12 @@ function DynamicMap() {
         {showHdb && displayHdbs.map((hdb) => hdb.getMapIcon({ setActiveHdb }))}
       </Map>
 
-      {/* TODO: pass the selected flat (cache) so the chatbot can answer "this flat" questions */}
-      <Chatbot pageContext={{ page: "Map", flats_on_map: filteredHdbs.length }} />
+      {/* Offset so the chat button sits left of the map's zoom/locate controls */}
+      <Chatbot
+        pageContext={getChatContext()}
+        onLocateFlat={locateFlat}
+        offsetRight={60}
+      />
     </div>
   );
 }

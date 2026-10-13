@@ -7,6 +7,7 @@ import TownToRegionMap from "./TownToRegion.json";
 import DynamicMap from "./DynamicMap.jsx";
 import HDBContext from "./HDBContext.jsx";
 import RegionalMap from './RegionalMap.jsx';
+import Chatbot from "./Chatbot/Chatbot.jsx";
 import "./FilterSystem.css";
 
 
@@ -295,6 +296,19 @@ function FilterSystem() {
         </button>
       </div>
       </div>
+
+      <Chatbot
+        pageContext={{
+          page: "Landing page (filters)",
+          filters: {
+            region: selected.region || "any",
+            price_range_sgd: selected.priceRange || "any",
+            flat_type: selected.roomType || "any",
+            remaining_lease_years: selected.leaseLife || "any",
+          },
+          flats_matching_filters: filteredHdbs.length,
+        }}
+      />
     </>
   );
 }
