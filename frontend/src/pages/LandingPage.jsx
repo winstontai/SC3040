@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FilterSystem from "../FilterSystem.jsx";
 import Header from "../Header.jsx";
+import Chatbot from "../Chatbot/Chatbot.jsx";
 
 /**
   * Renders the landing page that users first see.
@@ -13,6 +14,7 @@ function LandingPage() {
     <>
       <Header />
       <FilterSystem /> 
+      <Chatbot pageContext={{ page: "Landing page (filters)" }} />
     </>
   );
 };

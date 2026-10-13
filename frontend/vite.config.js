@@ -6,6 +6,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
+      // AI chatbot backend (backend/src/chatbot), run with `npm start` in backend/
+      '/chatbot': {
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+      },
       '/api': {
         target: 'https://api-open.data.gov.sg', // Your API's base URL
         changeOrigin: true,

@@ -13,6 +13,7 @@ import MapControl from "./MapControl.jsx";
 import "./classes/Sidebar.css";
 import WeightSliders from "./WeightSliders";
 import Bar from "./classes/Bar";
+import Chatbot from "./Chatbot/Chatbot.jsx";
 
 const initialLongitude = 103.81895378099354;
 const initialLatitude = 1.356474868742945;
@@ -407,6 +408,9 @@ function DynamicMap() {
         {/* Toggle Display of HDB Markers and iterates through displayHdbs array to set Marker*/}
         {showHdb && displayHdbs.map((hdb) => hdb.getMapIcon({ setActiveHdb }))}
       </Map>
+
+      {/* TODO: pass the selected flat (cache) so the chatbot can answer "this flat" questions */}
+      <Chatbot pageContext={{ page: "Map", flats_on_map: filteredHdbs.length }} />
     </div>
   );
 }

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon src/server.js"
+    "start": "node src/server.js",
+    "dev": "npx nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "type": "module",
   "description": "",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
     "backend": "file:",
     "express": "^4.21.2",
     "mongodb": "^6.13.0"

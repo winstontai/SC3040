@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './TutorialPage.css';
 import Header from '../Header';
+import Chatbot from '../Chatbot/Chatbot.jsx';
 import { useNavigate } from 'react-router-dom';
 import SelectRegion from '../assets/SelectRegion.gif';
 import FilterPref from '../assets/FilterPref.gif';
@@ -75,6 +76,7 @@ const TutorialPage = () => {
   return (
     <>
       <Header />
+      <Chatbot pageContext={{ page: 'Tutorial' }} />
       <div className="tutorial-container">
         <header className="tutorial-header">
           <h1>How It Works</h1>

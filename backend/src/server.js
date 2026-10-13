@@ -1,9 +1,20 @@
 import express from 'express';
+import { fileURLToPath } from 'url';
 import { MongoClient, ServerApiVersion } from 'mongodb';
+import chatbotRouter from './chatbot/router.js';
+
+// Load secrets such as ANTHROPIC_API_KEY from backend/.env if it exists.
+try {
+    process.loadEnvFile(fileURLToPath(new URL('../.env', import.meta.url)));
+} catch {
+    // no .env file; rely on the real environment
+}
 
 const app = express();
 
 app.use(express.json());
+
+app.use('/chatbot', chatbotRouter);
 
 app.get('/api/db', async (req, res) => {
     const { name } = req.params
